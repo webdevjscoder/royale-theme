@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Hello World",
+    "author": "Posty McPoster",
+    "conntent": "Lorem Ipsum and stuff..."
+  },
+   {
+    "title": "Post 2",
+    "author": "Posty McPoster",
+    "conntent": "Lorem Ipsum and stuff..."
+  }, {
+    "title": "Hey, another post!",
+    "author": "Posty McPoster",
+    "conntent": "Lorem Ipsum and stuff..."
+  }, {
+    "title": "One more...",
+    "author": "Posty McPoster",
+    "conntent": "Lorem Ipsum and stuff..."
+  }
+]

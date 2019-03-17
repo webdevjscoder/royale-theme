@@ -12,19 +12,25 @@
     "url": "git+https://github.com/YourWebDevGuy/royale-theme.git"
   },
   "author": "YourWebDevGuy <abraham.cuenca@yourwebdevguy.com>",
-  "contributors": [{
-    "name": "Abraham Cuenca",
-    "email": "websiteprojectmanager@gmail.com",
-    "url": "http://www.abrahamcuenca.com"
-  },
+  "contributors": [
+    {
+      "name": "Abraham Cuenca",
+      "email": "websiteprojectmanager@gmail.com",
+      "url": "http://www.abrahamcuenca.com"
+    },
     {
       "name": "Juan S. Cobian",
       "email": "webdevjscoder@gmail.com",
       "url": "http://www.webdevjscoder.com"
-    }],
+    }
+  ],
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/YourWebDevGuy/royale-theme/issues"
   },
-  "homepage": "https://github.com/YourWebDevGuy/royale-theme#readme"
+  "homepage": "https://github.com/YourWebDevGuy/royale-theme#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "panini": "^1.6.3"
+  }
 }
