@@ -1,0 +1,53 @@
+body *{
+    box-sizing: border-box;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 25px;
+    position: relative;
+    bottom: 50px;
+}
+
+.fixed {
+    background-image: url("http://placekitten.com/1920/640");
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.new-img {
+    background-image: url(http://placekitten.com/1040/640);
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.other-img {
+    background-image: url(http://placekitten.com/1280/640);
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.winner-img {
+    background-image: url(http://worldartsme.com/images/we-have-a-winner-clipart-1.jpg);
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.empty {
+    opacity: 0;
+    height: 400px;
+}
