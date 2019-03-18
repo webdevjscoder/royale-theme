@@ -11,12 +11,12 @@ function defaultTask(cb){
         helpers: 'src/helpers/',
         data: 'src/data/'
       }))
+      .pipe(src('src/pages/**/*.*'))
       .pipe(dest('build'));
   } catch (e) {
     console.error(e);
   }
- cb();
+  cb();
 };
 
 exports.default = defaultTask;
-
