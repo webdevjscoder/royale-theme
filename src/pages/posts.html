@@ -1,0 +1,19 @@
+---
+layout: post
+---
+
+{{#each posts}}
+<article>
+<div class="post__title">
+    {{this.title}}
+</div>
+<div class="post__image">
+    <img src="{{this.featured-image}}" alt="">
+</div>
+<h3>{{this.author}}</h3>
+    <span>{{this.date}}</span>
+    <div class="post__content">
+        {{this.content}}
+    </div>
+</article>
+{{/each}}
