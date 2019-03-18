@@ -1,20 +1,16 @@
 [
   {
     "title": "Hello World",
+    "featured-image": "//placekitten.com/640/380",
+    "date": "2019-01-01",
     "author": "Posty McPoster",
-    "conntent": "Lorem Ipsum and stuff..."
+    "content": "Lorem Ipsum and stuff..."
   },
-   {
-    "title": "Post 2",
+  {
+    "title": "Another One",
+    "featured-image": "//placekitten.com/640/380",
+    "date": "2019-01-01",
     "author": "Posty McPoster",
-    "conntent": "Lorem Ipsum and stuff..."
-  }, {
-    "title": "Hey, another post!",
-    "author": "Posty McPoster",
-    "conntent": "Lorem Ipsum and stuff..."
-  }, {
-    "title": "One more...",
-    "author": "Posty McPoster",
-    "conntent": "Lorem Ipsum and stuff..."
+    "content": "Lorem Ipsum and stuff..."
   }
 ]
