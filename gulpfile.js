@@ -1,7 +1,7 @@
-const { src, dest } = require('gulp');
+const { src, dest, series } = require('gulp');
 const panini = require('panini');
 
-function defaultTask(cb){
+function build(cb){
   try {
     return src('src/pages/**/*.html')
       .pipe(panini({
@@ -11,7 +11,6 @@ function defaultTask(cb){
         helpers: 'src/helpers/',
         data: 'src/data/'
       }))
-      .pipe(src('src/pages/**/*.*'))
       .pipe(dest('build'));
   } catch (e) {
     console.error(e);
@@ -19,4 +18,10 @@ function defaultTask(cb){
   cb();
 };
 
-exports.default = defaultTask;
+function copyAssets(cb){
+  return src('src/pages/assets/**/*.*')
+    .pipe(dest('build/assets'));
+  cb();
+}
+
+exports.default = series(build, copyAssets)
