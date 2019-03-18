@@ -10,9 +10,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YourWebDevGuy/royale-theme.git"
+    "url": "https://github.com/webdevjscoder/royale-theme.git"
   },
-  "author": "YourWebDevGuy <abraham.cuenca@yourwebdevguy.com>",
+  "author": "webdevjscoder <webdevjscoder@gmail.com>",
   "contributors": [
     {
       "name": "Abraham Cuenca",
